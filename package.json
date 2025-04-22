@@ -3,9 +3,10 @@
   "name": "ci_pipeline_project",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "commonjs",
   
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "test": "jest --coverage --forceExit",
     "build":"echo 'No hay proceso de compilacion en este proyecto'",
     "Lint": "eslint"
